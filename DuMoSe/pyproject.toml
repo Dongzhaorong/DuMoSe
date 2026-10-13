@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dual-branch-nodule"
+version = "0.1.0"
+description = "Paper-oriented dual-branch framework for pulmonary nodule malignancy prediction"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["nodule*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
