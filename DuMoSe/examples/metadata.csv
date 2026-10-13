@@ -1,3 +1,0 @@
-VolumeName,label,text,var_internalStructure,var_calcification,var_sphericity,var_margin,var_lobulation,var_spiculation,var_texture
-LIDC-IDRI-0001__069__n000__y1.nii.gz,1,"There is a pulmonary nodule with pronounced spiculation, moderate lobulation, moderately defined margin, round shape, and solid. It is obvious. Calcification is absent. Internal structure is soft-tissue.",0,0,0.6875,0.6875,2,0.6875,0.1875
-LIDC-IDRI-0002__071__n000__y1.nii.gz,1,"There is a pulmonary nodule with no spiculation, no lobulation, poorly defined margin, round shape, and ground-glass. It is extremely subtle. Calcification is absent. Internal structure is soft-tissue.",0,0,1,0.25,0,0,0.25
