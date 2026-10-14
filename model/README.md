@@ -76,6 +76,4 @@ Each fold saves `best.pt`, `history.csv`, the three split CSVs, `test_prediction
 
 
 
-## License
 
-No license is assigned automatically. Choose and add a license only after confirming co-author, institutional and third-party code requirements.
