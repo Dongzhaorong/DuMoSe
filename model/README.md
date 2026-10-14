@@ -39,7 +39,7 @@ VolumeName,Grow,Text,PatientID,var_subtlety,var_margin,var_spiculation
 LIDC-IDRI-0001_n1.npy,0,"...description...",LIDC-IDRI-0001,0.25,0.50,0.00
 ```
 
-- `Grow`: **0 benign, 1 malignant**; prepare these labels and ROI crops **externally**, consistent with the manuscript's filtering protocol.
+- `Grow`: **0 benign, 1 malignant**; prepare these labels and ROI crops **externally**.
 - `Text`: standardized clinical description of **the target nodule only**; exclude diagnosis/pathology indicators to prevent label leakage.
 - `PatientID`: strongly recommended. All nodules from one patient are restricted to the same partition. If missing, a name-based heuristic is used; check its output before relying on it.
 - Public LIDC: `var_*` per-reader **attribute variance** (not standard deviation, and exclude `var_malignancy`). The mean square root across available attributes yields uncertainty.
